@@ -3,7 +3,7 @@
 }
 
 div {
-    background-color: orange ;
+    background-color: rgb(0, 0, 0) ;
     text-align: center;
 }
 
@@ -19,28 +19,92 @@ div {
 @media(min-width:576px) {
  #fotodeperfil{
     position:absolute;
-    width:16%;
+    width:12%;
     border-radius: 100%;
     box-shadow: 8px 8px 8px grey;
     left: 3%;
     top: 550px;
 }
+#acerca{
+    font-weight: bold;
+    color: #50C0FF;
+	margin-bottom: 0%;
+	text-shadow:
+		0 0 5px rgb(13, 124, 171),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+
+}
+#nombre{
+    font-weight: bold;
+    margin-top: 0%;
+    color: #50C0FF;
+	margin-top: 30%;
+	text-shadow:
+		0 0 5px rgb(13, 124, 171),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
 }
 
+
+
+}
+ /* MENOS DE 575PX*/
 @media(max-width:575px) {
     #fotodeperfil {
        position:absolute;
-       width:30%;
+       width:40%;
        border-radius: 100%;
        box-shadow: 8px 8px 8px grey;
        left: 3%;
        top: 700px;
    }
+   #acerca{
+
+    font-weight: bold;
+    margin-top: 0%;
+    color: #50C0FF;
+	margin-top: 30%;
+	text-shadow:
+		0 0 5px rgb(13, 124, 171),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+   }
+   #nombre{
+    font-weight: bold;
+    color: #50C0FF;
+	margin-top: 30%;
+	text-shadow:
+		0 0 5px rgb(13, 124, 171),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
  }
 
 
- #nombre{
-    font-weight: bold;
-    margin-top: 30%;
-
-}
+ 
