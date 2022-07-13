@@ -1,7 +1,23 @@
 
 .row{
-    background-color: blue;
-    padding: 20px;
+    background-color: black;
+    padding: 15px;
     
     }
     
+
+    #neon{
+        font-weight: bold;
+        color: #50C0FF;
+        margin-bottom: 2em;
+        text-shadow:
+            0 0 5px rgb(13, 124, 171),
+            0 0 10px rgba(0,178,255,1),
+            0 0 20px rgba(0,178,255,1),
+            0 0 40px rgba(38,104,127,1),
+            0 0 80px rgba(38,104,127,1),
+            0 0 90px rgba(38,104,127,1),
+            0 0 100px rgba(38,104,127,1),
+            0 0 140px rgba(38,104,127,1),
+            0 0 10px rgba(38,104,127,1);
+    }
