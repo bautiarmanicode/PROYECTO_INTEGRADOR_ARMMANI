@@ -16,7 +16,7 @@ div {
     box-shadow: 8px 8px 8px grey;
 }
 
-@media(min-width:576px) {
+@media (min-width:576px) {
  #fotodeperfil{
     position:absolute;
     width:12%;
@@ -28,7 +28,6 @@ div {
 #acerca{
     font-weight: bold;
     color: #50C0FF;
-	margin-bottom: 0%;
 	text-shadow:
 		0 0 5px rgb(13, 124, 171),
 		0 0 10px rgba(0,178,255,1),
@@ -68,15 +67,14 @@ div {
        width:40%;
        border-radius: 100%;
        box-shadow: 8px 8px 8px grey;
-       left: 3%;
-       top: 700px;
+       left: 30%;
+       top: 650px;
    }
    #acerca{
 
     font-weight: bold;
     margin-top: 0%;
     color: #50C0FF;
-	margin-top: 30%;
 	text-shadow:
 		0 0 5px rgb(13, 124, 171),
 		0 0 10px rgba(0,178,255,1),
@@ -91,7 +89,7 @@ div {
    #nombre{
     font-weight: bold;
     color: #50C0FF;
-	margin-top: 30%;
+	margin-top: 19%;
 	text-shadow:
 		0 0 5px rgb(13, 124, 171),
 		0 0 10px rgba(0,178,255,1),
