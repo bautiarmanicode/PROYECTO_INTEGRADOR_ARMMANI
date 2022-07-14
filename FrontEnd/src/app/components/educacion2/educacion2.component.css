@@ -1,11 +1,19 @@
 
 .row{
     padding: 50px;
+	box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+            1px 2px 4px 0px rgba(0,255,255,0.7),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(0,255,255,0.7);
 
+}
+p{
+	color:white;
 }
 
 div{
     background-color: black;
+	
 }
 
 h1,h3{
@@ -30,3 +38,4 @@ h1,h3{
 		0 0 140px rgba(38,104,127,1),
 		0 0 10px rgba(38,104,127,1);
 }
+
