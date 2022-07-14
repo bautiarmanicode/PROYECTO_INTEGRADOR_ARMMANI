@@ -13,6 +13,8 @@ import { HardysoftComponent } from './components/hardysoft/hardysoft.component';
 import { LogoApComponent } from './components/logo-ap/logo-ap.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HttpClientModule  } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,12 +26,14 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     FooterComponent,
     HardysoftComponent,
     LogoApComponent,
-    ProyectoComponent
+    ProyectoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
