@@ -1,4 +1,3 @@
-
 package com.portfolioBau.BBB.Service;
 
 import com.portfolioBau.BBB.Entity.Persona;
@@ -10,11 +9,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 
-public class ImpPersonaService implements iPersonaService{
-    
-    @Autowired iPersonaRepository iPersonaRepository;
-    
-    
+public class ImpPersonaService implements iPersonaService {
+
+    @Autowired
+    iPersonaRepository iPersonaRepository;
+
     @Override
     public List<Persona> getPersona() {
         List<Persona> persona = iPersonaRepository.findAll();
@@ -23,7 +22,7 @@ public class ImpPersonaService implements iPersonaService{
 
     @Override
     public void savePersona(Persona persona) {
-      iPersonaRepository.save(persona);
+        iPersonaRepository.save(persona);
     }
 
     @Override
@@ -33,10 +32,9 @@ public class ImpPersonaService implements iPersonaService{
 
     @Override
     public Persona findPersona(Long id) {
-         Persona persona =  iPersonaRepository.findById(id).orElse(null);
-         return persona;
-         
-    }
-    
-}
+        Persona persona = iPersonaRepository.findById(id).orElse(null);
+        return persona;
 
+    }
+
+}
