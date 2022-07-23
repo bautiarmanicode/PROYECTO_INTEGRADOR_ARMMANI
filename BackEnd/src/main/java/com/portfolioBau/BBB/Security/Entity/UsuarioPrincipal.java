@@ -43,12 +43,12 @@ public class UsuarioPrincipal implements UserDetails {
         return password;
     }
 
-    @Override
+ 
     public String getNombre() {
         return nombre;
     }
 
-    @Override
+  
     public String getEmail() {
         return email;
     }

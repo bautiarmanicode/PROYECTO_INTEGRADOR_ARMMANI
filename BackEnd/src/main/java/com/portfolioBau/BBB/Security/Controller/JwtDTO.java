@@ -9,5 +9,5 @@ package com.portfolioBau.BBB.Security.Controller;
  * @author El Bauto
  */
 class JwtDTO {
-    
+
 }
